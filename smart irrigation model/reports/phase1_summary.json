@@ -1,0 +1,22 @@
+{
+    "total_records": 16411,
+    "missing_values": {
+        "MOI": 0,
+        "temp": 0,
+        "humidity": 0,
+        "result": 0
+    },
+    "class_distribution": {
+        "0_pump_off": 9062,
+        "1_pump_on": 7349
+    },
+    "class_percentages": {
+        "0_pump_off": "55.22%",
+        "1_pump_on": "44.78%"
+    },
+    "correlations_with_target": {
+        "MOI": -0.1873,
+        "temp": 0.5842,
+        "humidity": -0.5381
+    }
+}

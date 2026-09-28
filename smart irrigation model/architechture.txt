@@ -1,0 +1,74 @@
+# SMART IRRIGATION SYSTEM — PREDICTIVE MODEL & DECISION ENGINE
+## Architecture & Execution Strategy (Binary Classification MVP)
+
+### 1. Executive Summary & Objective
+* **Goal**: Develop a high-accuracy, production-grade predictive irrigation model and automated decision engine using our primary dataset (dataset/data.csv — 16,411 rows, clean, zero missing values).
+* **Scope**: Laser-focused prototype spanning Phases 1 to 4 (Data Ingestion/EDA, Preprocessing & Stratified Splits, Dual ML+DL Model Benchmarking, and Decision & CLI Demonstration Suite).
+* **Target Outcome**: A robust, edge-ready prototype with verifiable benchmarks (F1 > 90%, ROC-AUC > 0.95), inference latency < 2ms, and an interactive CLI demonstration script (demo_predict.py) for live judging and frontend integration.
+
+---
+
+### 2. Feature & Target Formulation
+* **Input Features (3 Core IoT Sensors)**:
+  1. MOI: Soil Moisture Percentage (Range: 1% to 100%)
+  2. temp: Ambient Temperature in Celsius (Range: 13 to 46)
+  3. humidity: Relative Humidity Percentage (Range: 15.0 to 91.0)
+* **Target Formulation (Binary Classification)**:
+  - need_irrigation:
+    - 0: No Irrigation (Pump OFF — 0 mins) [55.22% of dataset]
+    - 1: Irrigation Required (Pump ON — dynamically calculated 15 to 40 mins) [44.78% of dataset]
+* **Dual-Model Strategy (ML + DL Head-to-Head)**:
+  1. Model 1: Gradient Boosted Trees (XGBoost / LightGBM) — Ultra-fast, lightweight, near-zero inference latency, production edge ready.
+  2. Model 2: Deep Neural Network (ANN / MLP) — Multi-layer perceptron with Dropout and BatchNorm capturing non-linear feature interactions as a deep learning benchmark for judges.
+
+---
+
+### 3. System Architecture Diagram
+
+```
+                 [ SENSOR INPUTS ]
+      Soil Moisture (MOI) | Temperature | Humidity
+                          |
+                          v
+            +---------------------------+
+            |   Data Cleaning & Splits  |
+            |   (StandardScaler / MinMax|
+            |   Stratified Train / Test)|
+            +-------------+-------------+
+                          |
+            +-------------+-------------+
+            v                           v
+ +----------------------+    +----------------------+
+ | Model 1: XGBoost /   |    | Model 2: Deep Neural |
+ | LightGBM Classifier  |    | Network (ANN / MLP)  |
+ +----------+-----------+    +----------+-----------+
+            |                           |
+            +-------------+-------------+
+                          | (Model Comparison & Export)
+                          v
+            +---------------------------+
+            |   Decision & Action Engine|
+            |  Class 0: Pump OFF (0 min)|
+            |  Class 1: Pump ON (15-40m)|
+            +-------------+-------------+
+                          |
+                          v
+            +---------------------------+
+            |      demo_predict.py      |
+            | (Interactive CLI Demo     |
+            |  for Judges & Teammates)  |
+            +---------------------------+
+```
+
+---
+
+### 4. Interactive Demonstration Interface (demo_predict.py)
+Provides real-time predictions for judges and hardware/frontend developers:
+
+Usage:
+    python demo_predict.py --moi 32 --temp 35 --humidity 45
+
+Expected Output:
+    [Result] Decision: IRRIGATION REQUIRED (Class 1)
+    [Action] Run pump for 25 minutes.
+    [Latency] 1.2 ms | Confidence: 98.4%
