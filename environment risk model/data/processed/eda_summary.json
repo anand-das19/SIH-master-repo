@@ -1,0 +1,358 @@
+{
+  "dataset_name": "INDmet High-Resolution Daily District Climate (1981-2024)",
+  "spatial_resolution": "District Aggregate (from 0.05\u00b0 Gridded IMD/CHIRPS/ERA5)",
+  "temporal_range": "1981 - 2024 (44 Years)",
+  "total_districts_available": 726,
+  "districts_profiled": 12,
+  "total_days_profiled": 192852,
+  "quality_metrics": {
+    "missing_records_count": 0,
+    "sentinel_values_count": 0,
+    "data_completeness_pct": 100.0
+  },
+  "rainfall_distribution": {
+    "average_dry_days_pct": 63.8,
+    "highest_daily_rainfall_mm": 321.74
+  },
+  "temperature_distribution": {
+    "highest_daily_tmax_c": 46.51
+  },
+  "district_profiles": [
+    {
+      "file": "data_District_14.csv",
+      "total_days": 16071,
+      "year_min": 1981,
+      "year_max": 2024,
+      "missing_records": 0,
+      "sentinels": {
+        "precip": 0,
+        "tmax": 0,
+        "tmin": 0
+      },
+      "rainfall_stats": {
+        "dry_days_pct": 76.67,
+        "p90_mm": 4.55,
+        "p95_mm": 12.78,
+        "p99_mm": 35.42,
+        "max_daily_mm": 122.93
+      },
+      "temperature_stats": {
+        "mean_tmax": 31.65,
+        "p90_tmax": 40.61,
+        "max_tmax": 46.51,
+        "min_tmin": 2.13
+      },
+      "district_id": 14,
+      "district_name": "Agra",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "file": "data_District_16.csv",
+      "total_days": 16071,
+      "year_min": 1981,
+      "year_max": 2024,
+      "missing_records": 0,
+      "sentinels": {
+        "precip": 0,
+        "tmax": 0,
+        "tmin": 0
+      },
+      "rainfall_stats": {
+        "dry_days_pct": 27.44,
+        "p90_mm": 22.79,
+        "p95_mm": 34.09,
+        "p99_mm": 65.56,
+        "max_daily_mm": 166.92
+      },
+      "temperature_stats": {
+        "mean_tmax": 30.62,
+        "p90_tmax": 33.17,
+        "max_tmax": 35.08,
+        "min_tmin": 19.91
+      },
+      "district_id": 16,
+      "district_name": "Alappuzha",
+      "state": "Kerala"
+    },
+    {
+      "file": "data_District_25.csv",
+      "total_days": 16071,
+      "year_min": 1981,
+      "year_max": 2024,
+      "missing_records": 0,
+      "sentinels": {
+        "precip": 0,
+        "tmax": 0,
+        "tmin": 0
+      },
+      "rainfall_stats": {
+        "dry_days_pct": 67.9,
+        "p90_mm": 3.74,
+        "p95_mm": 8.48,
+        "p99_mm": 24.4,
+        "max_daily_mm": 59.16
+      },
+      "temperature_stats": {
+        "mean_tmax": 32.11,
+        "p90_tmax": 37.27,
+        "max_tmax": 41.22,
+        "min_tmin": 11.34
+      },
+      "district_id": 25,
+      "district_name": "Anantapur",
+      "state": "Andhra Pradesh"
+    },
+    {
+      "file": "data_District_47.csv",
+      "total_days": 16071,
+      "year_min": 1981,
+      "year_max": 2024,
+      "missing_records": 0,
+      "sentinels": {
+        "precip": 0,
+        "tmax": 0,
+        "tmin": 0
+      },
+      "rainfall_stats": {
+        "dry_days_pct": 74.92,
+        "p90_mm": 6.28,
+        "p95_mm": 15.84,
+        "p99_mm": 42.04,
+        "max_daily_mm": 93.55
+      },
+      "temperature_stats": {
+        "mean_tmax": 31.61,
+        "p90_tmax": 40.44,
+        "max_tmax": 46.43,
+        "min_tmin": 2.93
+      },
+      "district_id": 47,
+      "district_name": "Banda",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "file": "data_District_70.csv",
+      "total_days": 16071,
+      "year_min": 1981,
+      "year_max": 2024,
+      "missing_records": 0,
+      "sentinels": {
+        "precip": 0,
+        "tmax": 0,
+        "tmin": 0
+      },
+      "rainfall_stats": {
+        "dry_days_pct": 61.11,
+        "p90_mm": 10.53,
+        "p95_mm": 21.71,
+        "p99_mm": 53.47,
+        "max_daily_mm": 265.39
+      },
+      "temperature_stats": {
+        "mean_tmax": 28.69,
+        "p90_tmax": 36.18,
+        "max_tmax": 44.7,
+        "min_tmin": 1.22
+      },
+      "district_id": 70,
+      "district_name": "Bijnor",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "file": "data_District_122.csv",
+      "total_days": 16071,
+      "year_min": 1981,
+      "year_max": 2024,
+      "missing_records": 0,
+      "sentinels": {
+        "precip": 0,
+        "tmax": 0,
+        "tmin": 0
+      },
+      "rainfall_stats": {
+        "dry_days_pct": 61.66,
+        "p90_mm": 12.99,
+        "p95_mm": 22.72,
+        "p99_mm": 50.35,
+        "max_daily_mm": 78.93
+      },
+      "temperature_stats": {
+        "mean_tmax": 32.02,
+        "p90_tmax": 37.44,
+        "max_tmax": 42.76,
+        "min_tmin": 9.75
+      },
+      "district_id": 122,
+      "district_name": "Dhenkanal",
+      "state": "Odisha"
+    },
+    {
+      "file": "data_District_148.csv",
+      "total_days": 16071,
+      "year_min": 1981,
+      "year_max": 2024,
+      "missing_records": 0,
+      "sentinels": {
+        "precip": 0,
+        "tmax": 0,
+        "tmin": 0
+      },
+      "rainfall_stats": {
+        "dry_days_pct": 85.56,
+        "p90_mm": 1.7,
+        "p95_mm": 11.52,
+        "p99_mm": 55.66,
+        "max_daily_mm": 288.51
+      },
+      "temperature_stats": {
+        "mean_tmax": 31.37,
+        "p90_tmax": 35.29,
+        "max_tmax": 40.26,
+        "min_tmin": 9.57
+      },
+      "district_id": 148,
+      "district_name": "Gir Somnath",
+      "state": "Gujarat"
+    },
+    {
+      "file": "data_District_205.csv",
+      "total_days": 16071,
+      "year_min": 1981,
+      "year_max": 2024,
+      "missing_records": 0,
+      "sentinels": {
+        "precip": 0,
+        "tmax": 0,
+        "tmin": 0
+      },
+      "rainfall_stats": {
+        "dry_days_pct": 70.28,
+        "p90_mm": 5.01,
+        "p95_mm": 14.42,
+        "p99_mm": 57.76,
+        "max_daily_mm": 219.61
+      },
+      "temperature_stats": {
+        "mean_tmax": 30.94,
+        "p90_tmax": 39.41,
+        "max_tmax": 45.47,
+        "min_tmin": 1.89
+      },
+      "district_id": 205,
+      "district_name": "Kasganj",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "file": "data_District_231.csv",
+      "total_days": 16071,
+      "year_min": 1981,
+      "year_max": 2024,
+      "missing_records": 0,
+      "sentinels": {
+        "precip": 0,
+        "tmax": 0,
+        "tmin": 0
+      },
+      "rainfall_stats": {
+        "dry_days_pct": 63.53,
+        "p90_mm": 9.87,
+        "p95_mm": 24.78,
+        "p99_mm": 81.32,
+        "max_daily_mm": 216.04
+      },
+      "temperature_stats": {
+        "mean_tmax": 31.05,
+        "p90_tmax": 37.75,
+        "max_tmax": 43.29,
+        "min_tmin": 2.78
+      },
+      "district_id": 231,
+      "district_name": "Kushinagar",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "file": "data_District_274.csv",
+      "total_days": 16071,
+      "year_min": 1981,
+      "year_max": 2024,
+      "missing_records": 0,
+      "sentinels": {
+        "precip": 0,
+        "tmax": 0,
+        "tmin": 0
+      },
+      "rainfall_stats": {
+        "dry_days_pct": 56.29,
+        "p90_mm": 21.49,
+        "p95_mm": 41.88,
+        "p99_mm": 112.96,
+        "max_daily_mm": 321.74
+      },
+      "temperature_stats": {
+        "mean_tmax": 32.21,
+        "p90_tmax": 35.52,
+        "max_tmax": 37.88,
+        "min_tmin": 14.12
+      },
+      "district_id": 274,
+      "district_name": "North Goa",
+      "state": "Goa"
+    },
+    {
+      "file": "data_District_425.csv",
+      "total_days": 16071,
+      "year_min": 1981,
+      "year_max": 2024,
+      "missing_records": 0,
+      "sentinels": {
+        "precip": 0,
+        "tmax": 0,
+        "tmin": 0
+      },
+      "rainfall_stats": {
+        "dry_days_pct": 49.51,
+        "p90_mm": 5.23,
+        "p95_mm": 8.64,
+        "p99_mm": 20.03,
+        "max_daily_mm": 141.43
+      },
+      "temperature_stats": {
+        "mean_tmax": 19.12,
+        "p90_tmax": 28.05,
+        "max_tmax": 33.96,
+        "min_tmin": -5.14
+      },
+      "district_id": 425,
+      "district_name": "Kishtwar",
+      "state": "Jammu And Kashmir"
+    },
+    {
+      "file": "data_District_500.csv",
+      "total_days": 16071,
+      "year_min": 1981,
+      "year_max": 2024,
+      "missing_records": 0,
+      "sentinels": {
+        "precip": 0,
+        "tmax": 0,
+        "tmin": 0
+      },
+      "rainfall_stats": {
+        "dry_days_pct": 70.72,
+        "p90_mm": 5.62,
+        "p95_mm": 13.39,
+        "p99_mm": 37.67,
+        "max_daily_mm": 158.24
+      },
+      "temperature_stats": {
+        "mean_tmax": 31.72,
+        "p90_tmax": 38.85,
+        "max_tmax": 43.28,
+        "min_tmin": 7.76
+      },
+      "district_id": 500,
+      "district_name": "Jalna",
+      "state": "Maharashtra"
+    }
+  ]
+}

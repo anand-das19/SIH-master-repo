@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+
+# Large Data Archives and Big Uncompressed Archives
+*.zip
+*.tar.gz
+*.nc
+
+# Raw INDmet zipped archive (exceeds GitHub 100MB limit)
+data/raw/indmet/INDmet_District_Data.zip
+
+# Keep empty raw directories in git if needed
+!data/raw/imd/.gitkeep
+!data/raw/indmet/.gitkeep

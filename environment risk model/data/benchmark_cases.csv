@@ -1,0 +1,21 @@
+case_id,case_name,category,district,state,latitude,longitude,query_date,window_start,window_end,expected_tier,expected_hazard,description
+CASE_DR_01,Bundelkhand Drought 2015,DROUGHT,Jhansi,Uttar Pradesh,25.4484,78.5685,2015-09-15,2015-06-01,2015-09-30,SEVERE,DROUGHT,Monsoon failure with over 50% deficit across Kharif 2015 in Bundelkhand
+CASE_DR_02,Banda Bundelkhand Drought,DROUGHT,Banda,Uttar Pradesh,25.4754,80.3347,2015-09-20,2015-06-01,2015-09-30,SEVERE,DROUGHT,Severe rainfall deficit in southern UP triggering widespread crop failure
+CASE_DR_03,Marathwada Latur Water Crisis,DROUGHT,Latur,Maharashtra,18.4088,76.5604,2015-08-30,2015-06-01,2015-09-30,SEVERE,DROUGHT,Crippling 2015 Marathwada drought that led to Jaldoot water trains
+CASE_DR_04,Marathwada Aurangabad Deficit,DROUGHT,Aurangabad,Maharashtra,19.8762,75.3433,2015-08-31,2015-06-01,2015-08-31,HIGH,DROUGHT,Severe Kharif monsoon deficit leading to acute agricultural distress
+CASE_DR_05,Rayalaseema Anantapur Arid Spell,DROUGHT,Anantapur,Andhra Pradesh,14.6819,77.6006,2016-09-10,2016-06-01,2016-09-30,HIGH,DROUGHT,Prolonged dry spells in chronically drought-prone Rayalaseema tract
+CASE_FL_01,Kerala Deluge Ernakulam,FLOOD,Ernakulam,Kerala,9.9816,76.2999,2018-08-16,2018-08-01,2018-08-20,SEVERE,FLOOD,Record breaking torrential monsoon deluge and dam overflow across central Kerala
+CASE_FL_02,Kerala Idukki Flash Deluge,FLOOD,Idukki,Kerala,9.8494,76.9804,2018-08-15,2018-08-01,2018-08-19,SEVERE,FLOOD,Extreme catchment precipitation and mudslides in high-range district
+CASE_FL_03,Kerala Wayanad Floods,FLOOD,Wayanad,Kerala,11.6854,76.1320,2018-08-14,2018-08-01,2018-08-18,SEVERE,FLOOD,Heavy torrential downpours triggering flash runoff and landslides
+CASE_FL_04,Chennai Historic Deluge,FLOOD,Chennai,Tamil Nadu,13.0827,80.2707,2015-12-01,2015-11-15,2015-12-05,SEVERE,FLOOD,Historic 24-hour rainfall exceeding 350mm causing catastrophic urban flooding
+CASE_FL_05,Western Maharashtra Kolhapur Floods,FLOOD,Kolhapur,Maharashtra,16.7050,74.2433,2019-08-07,2019-07-25,2019-08-12,SEVERE,FLOOD,Panchaganga river overflowed due to continuous heavy downpours in catchment
+CASE_FL_06,Western Maharashtra Sangli Deluge,FLOOD,Sangli,Maharashtra,16.8524,74.5815,2019-08-08,2019-07-25,2019-08-12,HIGH,FLOOD,Krishna river backwaters submerging agricultural floodplains
+CASE_HW_01,Phalodi National Heat Record,HEATWAVE,Jodhpur,Rajasthan,27.1300,72.3600,2016-05-19,2016-05-10,2016-05-25,SEVERE,HEATWAVE,All-time Indian national temperature record of 51.0C recorded at Phalodi
+CASE_HW_02,Churu Thar Heatwave,HEATWAVE,Churu,Rajasthan,28.2900,74.9600,2016-05-20,2016-05-10,2016-05-25,SEVERE,HEATWAVE,Persistent 49C to 50C heatwave conditions in arid northern Rajasthan
+CASE_HW_03,Titlagarh Odisha Heatwave,HEATWAVE,Balangir,Odisha,20.3000,83.1400,2016-04-24,2016-04-15,2016-04-30,SEVERE,HEATWAVE,Titlagarh recording blistering 48.5C in late April 2016
+CASE_HW_04,Vidarbha Nagpur Heatwave,HEATWAVE,Nagpur,Maharashtra,21.1458,79.0882,2015-05-23,2015-05-15,2015-05-30,HIGH,HEATWAVE,Severe heatwave conditions across central India with temperatures exceeding 46C
+CASE_HW_05,Gujarat Ahmedabad Heatwave,HEATWAVE,Ahmedabad,Gujarat,23.0225,72.5714,2016-05-19,2016-05-12,2016-05-24,HIGH,HEATWAVE,Multi-day heat alert with temperatures reaching 48.0C
+CASE_CTRL_01,Punjab Calm Spring Control,CONTROL,Ludhiana,Punjab,30.9010,75.8573,2021-03-15,2021-02-15,2021-03-31,LOW,NONE,Temperate stable spring weather during rabi crop maturation without extremes
+CASE_CTRL_02,Western Ghats Mild Post-Monsoon,CONTROL,Pune,Maharashtra,18.5204,73.8567,2022-10-31,2022-09-20,2022-10-31,LOW,NONE,Mild post-monsoon conditions with adequate soil moisture and moderate temperatures
+CASE_CTRL_03,Gangetic Plains Stable Autumn,CONTROL,Varanasi,Uttar Pradesh,25.3176,82.9739,2020-11-10,2020-10-15,2020-11-25,LOW,NONE,Stable transitional autumn climate with optimal temperatures for rabi sowing
+CASE_CTRL_04,Karnataka Plateau Pre-Monsoon,CONTROL,Hassan,Karnataka,13.0033,76.1004,2022-04-10,2022-03-15,2022-04-20,LOW,NONE,Normal seasonal temperatures and typical moderate precipitation pattern
